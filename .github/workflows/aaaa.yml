@@ -4,8 +4,9 @@ on:
   workflow_dispatch:
 
 jobs:
-  steps:
-    - name: Run Dastardly Action Step
-      uses: PortSwigger/dastardly-github-action@v1
-      with:
-        target-url: 'https://ginandjuice.shop'
+  Pedrada-kkasdaskdas:
+    steps:
+      - name: Run Dastardly Action Step
+        uses: PortSwigger/dastardly-github-action@v1
+        with:
+          target-url: 'https://ginandjuice.shop'
