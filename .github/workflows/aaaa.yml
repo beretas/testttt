@@ -1,8 +1,6 @@
 name: Pedraada Workflow
 
 on: 
-  # Triggers the workflow every 5 minutes
-  schedule: 
   workflow_dispatch:
 
 jobs:
