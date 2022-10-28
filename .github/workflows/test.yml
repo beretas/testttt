@@ -10,7 +10,7 @@ jobs:
   Pedrada-Bruta:
     runs-on: ubuntu-latest
     steps:
-      - name: Run Dastardly Action Step
-        uses: PortSwigger/dastardly-github-action@v1
+      - uses: actions/checkout@v2
+      - uses: actions/setup-go@v2
         with:
-          target-url: 'https://ginandjuice.shop'
+          go-version: 1.17 
