@@ -1,0 +1,16 @@
+name: Pedraada Workflow
+
+on: 
+  # Triggers the workflow every 5 minutes
+  schedule:
+    - cron: "0 6,18 * * *"
+  workflow_dispatch:
+
+jobs:
+  Pedrada-Bruta:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Run Dastardly Action Step
+        uses: PortSwigger/dastardly-github-action@v1
+        with:
+          target-url: 'https://ginandjuice.shop'
